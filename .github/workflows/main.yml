@@ -33,7 +33,7 @@ jobs:
           tags: ashurtodotest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_87cf908586ef4e38b64d14293e22a021 }}/ashurtodoimage:${{ github.sha }}
           file: ./Dockerfile
 
-    deploy:
+  deploy:
       runs-on: ubuntu-latest
       needs: build
       environment:
