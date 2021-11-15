@@ -19,13 +19,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: keep the secret key used in production secret!“
 SECRET_KEY = '5mcg_d8htvyz@x)37@5y0d&@491e_xny0@ba0vp)lrqf)o_=r!'
-
+““
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ashur-todo-test-v2.azurewebsites.net']
+ALLOWED_HOSTS = ['https://todoashurtestapp.azurewebsites.net']
 
 
 # Application definition
